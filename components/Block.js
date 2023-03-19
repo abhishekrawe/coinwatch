@@ -12,19 +12,39 @@ export default function Block({ result }) {
           <img className="w-20 h-20 mr-4" src={result.image} alt={result.name} />
           <table className="w-full border-collapse border-gray-300 my-4">
             <tbody>
-              <tr>
+              <tr className='hidden lg:table-row'>
                 <td className="font-medium pr-2">Symbol:</td>
                 <td className='text-violet-400'>{result.symbol.toUpperCase()}</td>
                 <td className="font-medium pr-2 lg:pl-4">Total volume:</td>
                 <td className='text-orange-600'>{result.total_volume.toLocaleString()}</td> 
               </tr>
               
-              <tr>
+              <tr className='hidden lg:table-row'>
                 <td className="font-medium pr-2">Market Cap:</td>
                 <td className='text-green-500'>{result.market_cap.toLocaleString()} USD</td>
                 <td className="font-medium pr-2 lg:pl-4">Price Change(24hrs):</td>
                 <td className='text-red-600'>{result.price_change_24h.toLocaleString()}</td> 
               </tr>
+
+            <tr class="lg:hidden">
+              <td class="font-medium pr-2">Symbol:</td>
+              <td class='text-violet-400'>{result.symbol.toUpperCase()}</td>
+            </tr>
+
+            <tr class="lg:hidden">
+              <td class="font-medium pr-2">Market Cap:</td>
+              <td class='text-green-500'>{result.market_cap.toLocaleString()} USD</td>
+            </tr>
+
+            <tr class="lg:hidden">
+              <td class="font-medium pr-2 lg:pl-4">Total volume:</td>
+              <td class='text-orange-600'>{result.total_volume.toLocaleString()}</td>
+            </tr>
+
+            <tr class="lg:hidden">
+              <td class="font-medium pr-2 lg:pl-4">Price Change(24hrs):</td>
+              <td class='text-red-600'>{result.price_change_24h.toLocaleString()}</td>
+            </tr>
               
             </tbody>
           </table>
