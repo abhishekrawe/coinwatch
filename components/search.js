@@ -22,10 +22,11 @@ export default function Search({ results }) {
     if (filterOption === 'all') {
       return true;
     } else if (filterOption === 'coins') {
-      return coin.id.includes('coin-');
+      return coin.id.toUpperCase() === coin.symbol.toUpperCase();
     } else if (filterOption === 'tokens') {
-      return coin.id.includes('token-');
+      return coin.id.toUpperCase() !== coin.symbol.toUpperCase();
     }
+
   }).filter((coin) =>
     coin.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     coin.symbol.toUpperCase().includes(searchTerm.toUpperCase())
@@ -50,13 +51,13 @@ export default function Search({ results }) {
   return (
     <div className="flex flex-col justify-center mt-5">
       <input
-          type="text"
-          placeholder="Search coins name & symbol..."
-          value={searchTerm}
-          onChange={handleSearch}
-          className="w-64 px-4 py-2 mx-auto rounded-full bg-gray-100 border-none focus:outline-none focus:ring-2 focus:ring-blue-600 "
-        />
-      <div className='flex flex-col md:flex-row justify-between items-center mb-5 mt-5'> 
+        type="text"
+        placeholder="Search coins name & symbol..."
+        value={searchTerm}
+        onChange={handleSearch}
+        className="w-64 px-4 py-2 mx-auto rounded-full bg-gray-100 border-none focus:outline-none focus:ring-2 focus:ring-blue-600 "
+      />
+      <div className='flex flex-col md:flex-row justify-between items-center mb-5 mt-5'>
         <div className="flex flex-col md:flex-row items-center m-10">
           <span className="mr-2 font-medium md:mr-4">Sort by:</span>
           <select value={sortOption} onChange={handleSort} className="mr-2 md:mr-4 rounded-full">
