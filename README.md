@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💖Coinwatch - Crypto Currency Price Tracker
 
-## Getting Started
+This Project is an assignment  which is build using [Next.js](https://nextjs.org/docs) [Tailwind CSS](https://tailwindcss.com/) .
+
+# 🤡The Problem statement is -
+
+- The Crypto Currency Price Tracker is a web application that fetches the top 50 cryptocurrencies along with their current market prices using an open API. The application will display this information on the home screen in a clear and user-friendly manner.
+
+- The application will be built using Next.js, which is a popular React-based framework for server-side rendering and building static websites. For the design and responsiveness of the site, Tailwind CSS will be used. This will ensure that the application looks great and functions well on both desktop and mobile devices.
+
+## 🤖Features:
+
+1.	**Home screen**: Upon launching the application, the home screen will display a list of the top 50 cryptocurrencies along with their current market prices, fetched from an open API.
+2.	**Search**: The application will allow users to search for specific cryptocurrencies using a search bar. This will enable users to quickly and easily find the information they need.
+3.	**Sorting and Filtering**: Users will be able to sort the cryptocurrencies based on different criteria, such as market capitalization or price change over a certain period. Additionally, users will be able to filter the cryptocurrencies based on different categories, such as coins vs. tokens.
+4.	**Responsive Design**: The application will be designed to be responsive, ensuring that it looks great and functions well on both desktop and mobile devices.
+
+## 🎊Some Glimpse of the App🎊
+
+
+
+https://user-images.githubusercontent.com/65603830/226199203-77ce6974-3e68-46d8-a68e-cda6c7e94173.mp4
+
+
+
+https://user-images.githubusercontent.com/65603830/226195484-9312b0ff-d0e4-4773-a35a-af3b4e5f587c.mp4
+
+
+
+
+## 🎀 Do you want it on local ?🎀 
 
 First, run the development server:
 
+- git clone https://github.com/abhishekrawe/coinwatch
+
 ```bash
+cd to coinwatch
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 💠 Future Contribution 💠 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- After clicking on each section of coin you can get all the information about the coin with the Graph of there price value.
+- Some routing functionality after clicking on the icon like trending coin and User SignIn.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
