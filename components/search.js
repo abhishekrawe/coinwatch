@@ -55,7 +55,7 @@ export default function Search({ results }) {
         placeholder="Search coins name & symbol..."
         value={searchTerm}
         onChange={handleSearch}
-        className="w-64 px-4 py-2 mx-auto rounded-full bg-gray-100 border-none focus:outline-none focus:ring-2 focus:ring-blue-600 "
+        className="w-64 px-4 py-2 mx-auto rounded-full bg-gray-100 border-none focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-800 "
       />
       <div className='flex flex-col md:flex-row justify-between items-center mb-5 mt-5'>
         <div className="flex flex-col md:flex-row items-center m-10">
