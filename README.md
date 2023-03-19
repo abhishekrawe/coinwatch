@@ -17,11 +17,9 @@ This Project is an assignment  which is build using [Next.js](https://nextjs.org
 
 ## 🎊Some Glimpse of the App🎊
 
-
-
-https://user-images.githubusercontent.com/65603830/226199203-77ce6974-3e68-46d8-a68e-cda6c7e94173.mp4
-
-
+<p align="center">
+  <img width="33%" src="https://user-images.githubusercontent.com/65603830/226200820-6d0556be-0b70-438f-8750-01b707b87b7f.gif" />
+</p>
 
 https://user-images.githubusercontent.com/65603830/226195484-9312b0ff-d0e4-4773-a35a-af3b4e5f587c.mp4
 
