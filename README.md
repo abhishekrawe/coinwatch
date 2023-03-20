@@ -42,8 +42,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## 💠 Future Contribution 💠 
 
-- After clicking on each section of coin you can get all the information about the coin with the Graph of there price value.
-- Some routing functionality after clicking on the icon like trending coin and User SignIn.
+- After clicking on each section of coin you can get all the information about the coin with the Graph💹 or Chart📊 of there price value.
+- Some routing functionality after clicking on the icon like trending coin and User SignIn🔐.
+- Lazy Loading 🦥
+- Adding Pagination 📟
 
 
 
